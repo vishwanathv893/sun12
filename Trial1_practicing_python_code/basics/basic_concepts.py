@@ -15,7 +15,7 @@ num2 = 1998
 num3 = 5.25
 name = 'vishwa' #string
 print(name)
-print(id(name))
+#print(id(name))
 
 #defining multiple variables in single line
 num4,num5,num6 = 12,34,56
