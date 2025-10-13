@@ -11,10 +11,36 @@ type casting :
 
 '''
 num1 = 6
-print(type(num1))
+num2 = 3.2
+num3 = 6+8j
+print(type(num1), type(num2),type(num3))
+
 var1 = True
 var2 = False
-Var3 = None
-num2 = float(num1)
-print(num2)
-print(type(num2))
+var3 = None #none type keyword is used if the value assigned to variable is yet to be decided
+print( 'var3 data type ,var3 :',type(var3))
+
+#Type casting : converting one data type into other data type
+num4 = float(num1)
+print(num4)
+print('After type casting :' ,type(num2))
+
+num5 = int(num2)
+print('After type casting' ,num5)
+
+'''num10 =int(num3)
+print('num10 :',num10) #TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+'''
+#boolean function
+num6 = -6
+num7 = bool(num6)
+print('num7 :',num7)
+print(type(num7))
+num8 = 0
+num9 =bool(num8)
+print('num9:', num9)
+
+
+
+
+        
