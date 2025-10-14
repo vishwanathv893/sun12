@@ -77,4 +77,6 @@ print("Data type of var4 :",type(var4))
 
 
 
+
+
         
