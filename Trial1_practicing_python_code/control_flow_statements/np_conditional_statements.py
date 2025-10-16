@@ -14,14 +14,14 @@ Conditional statements: Flow of program execution will be decided based on a con
 3. Series if-else statements
 4. Nested if-else statements
 '''
-'''Here I am using conditional statments to explain 'KSRTC bus ticketing scenario'  from  mysore to nanjangud ,where conductor give bus tickets according to some guidelines
+'''Here I am using conditional statements to explain 'KSRTC bus ticketing scenario'  from  Mysore to Nanjangud ,where conductor give bus tickets according to some guidelines
     -female/women have special allowance where they don't charged (nil)
     -male/men have to pay the prescribed  bus charge (Rs:46)
-    -childrens(male) below age 7 are waived of charge(nil)
-    -childrens(male) above age 7 and below 18 are charged with half price of the bus ticket(Rs:23)
-    -Scenior citizen have concession on bus ticket(Rs :32)
+    -children(male) below age 7 are waived of charge(nil)
+    -children(male) above age 7 and below 18 are charged with half price of the bus ticket(Rs:23)
+    -Senior citizen have concession on bus ticket(Rs :32)
     -Any person having 'bus pass' won't charged as they previously paid for certain duration(nil)
-these points are only approximation not to take accuratly .
+  these points are only approximation not to take accurately .
 '''  
 print("Kindly ensure to give input in lower case & without any space. ")
 gender = input("Please enter your gender ,type 'male' or 'female':")
@@ -40,15 +40,15 @@ elif gender == "male":
         elif answer == 'no':
             half_charge =input("If age is between 7 & 18 then type 'yes' if not then 'no' : ") 
             if half_charge == 'yes':
-                print("Half Chargeble,pay Rs:23")  
+                print("Half Chargeable,pay Rs:23")  
             elif half_charge == 'no':   
-                age_group =input("Kindly Confirm which  other age group you belong to ,adult or scenior citizen :")
+                age_group =input("Kindly Confirm which  other age group you belong to ,adult or senior citizen :")
                 if age_group =="adult":
-                    print("Full Chargeble ,pay Rs:46")
-                elif age_group == "scenior citizen":
+                    print("Full Chargeable ,pay Rs:46")
+                elif age_group == "senior citizen":
                     print("Charge concession,pay Rs:32")    
  
-print("Programm terminated :)")       
+print("Program terminated :)")       
             
         
         
