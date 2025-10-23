@@ -7,11 +7,11 @@ print("Checking whether the given number is negative or zero or positive :-")
 x = input("Enter the number :")
 x1 = int(x)
 if x1<0 :
-    print("The entered number is negative.")
+    print(f"The entered number {x1} is negative.") #unsing 'f-string' to include  user input
 elif x1>0 :
-    print("The entered number is positive.")
+    print(f"The entered number {x1} is positive.")
 else:
-    print("The entered number is zero.")   
+    print(f"The entered number {x1} is zero.")   
 
    
     
