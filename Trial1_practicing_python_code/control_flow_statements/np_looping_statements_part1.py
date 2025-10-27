@@ -1,7 +1,7 @@
 '''
 Created on 23-Oct-2025
 
-"Reduce repetation - increase reuse" --> Easy maintenence
+"Reduce repetition - increase reuse" --> Easy maintenance
 
 Looping statements: 
 - Looping statements are used to execute any statement/s repeatedly.
@@ -24,3 +24,9 @@ count = 1
 while count <= no_of_times :
     print(f"{count}.",statement) # Using formatted string literal(f-string) to include numeric values along with statement
     count+=1 
+    if count ==50:
+        break
+#infinite loop case  
+'''while True:   
+    print("vishwa")
+    '''
