@@ -9,7 +9,7 @@ List:
     - List with elements:
         > Manual entry
         > Using built-in function - list()
-        > 
+        >
 @author: vishw
 '''
 a =7
