@@ -23,5 +23,17 @@ print(type(tu3))
 a=5
 b=2
 tu4 =(a+b,a-b,a*b,a/b)# using operations as elements inside the tuple
-print("tu4",tu4)
+print("tu4 :",tu4)
+
+c = (1,2,3)
+print(id(c))
+c= (1,2,3)  #new element cannot be added or attached to existing  tuple
+c1 =(7) 
+#c =c+c1
+print("c:",c)
+
+d=(4)
+e =(4)
+print(id(d),id(e))#in tuple same object is stored in one memory location 
+
 

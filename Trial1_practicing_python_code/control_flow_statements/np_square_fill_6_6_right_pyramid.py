@@ -19,7 +19,7 @@ for j in range(6):
     
     '''
   
-print("Right angle pattern:-")
+print("Right pyramid pattern:-")
 
 for  i in range(1):
     print("*",end=" ")
@@ -37,7 +37,7 @@ for  i in range(5):
     print("*",end=" ")    
 print()
 '''
-print("Using diff code:")
+print("right pyramid:")
 k=1
 while k<=5:
     for l in range(k):
