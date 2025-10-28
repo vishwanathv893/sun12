@@ -31,3 +31,6 @@ print("d:",d)
 e =[4]
 f=[4]
 print(id(e),id(f)) #in list same objects are stored in different memory location
+
+for 2 in c:
+    print(2)
