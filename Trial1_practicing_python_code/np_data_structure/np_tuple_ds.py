@@ -16,7 +16,7 @@ tu1=(1,2,3,4,5)#tuple with listed elements
 print("tu1",tu1)
 print(type(tu1))
 
-tu3=tuple(range(6))#tuple with an iterable function i.e. range()
+tu3=tuple(range(6))#tuple with an itereble function i.e. range()
 print("tu3:",tu3)
 print(type(tu3))
 
@@ -34,6 +34,8 @@ print("c:",c)
 
 d=(4)
 e =(4)
-print(id(d),id(e))#in tuple same object is stored in one memory location 
+print(id(d),id(e))#in tuple same object is stored in one memory location
+
+ 
 
 

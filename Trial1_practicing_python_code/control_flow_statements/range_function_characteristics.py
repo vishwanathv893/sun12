@@ -31,7 +31,7 @@ for n in range(-25,-15,3):
     print(n)    
     
 print("range function with -start,-stop and -step:")  
-for s in range(-40,-1,-2):
+for s in range(-1,-40,-2):
     print(s)  #reverse /negative step cannot be given for -start and -stop arguments
     
 #step value should be negative if start value is greater than stop value

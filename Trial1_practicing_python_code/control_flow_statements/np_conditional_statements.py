@@ -22,7 +22,8 @@ Conditional statements: Flow of program execution will be decided based on a con
     -Senior citizen have concession on bus ticket(Rs :32)
     -Any person having 'bus pass' won't charged as they previously paid for certain duration(nil)
   these points are only approximation not to take accurately .
-'''  
+''' 
+
 print("Kindly ensure to give input in lower case & without any space. ")
 gender = input("Please enter your gender ,type 'male' or 'female':")
 
@@ -48,10 +49,9 @@ elif gender == "male":
                 elif age_group == "senior citizen":
                     print("Charge concession,pay Rs:32")    
  
-print("Program terminated :)")       
-            
+print("Program terminated :)")                   
         
-        
+
     
     
     
