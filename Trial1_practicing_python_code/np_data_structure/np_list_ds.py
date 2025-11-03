@@ -38,11 +38,16 @@ list1 = [a+b,a-b,a*b,a/b]
 print("list1:",list1)
 print(type(list1))
 print(id(list1))
+print()
+
+print()
 
 c = [9,2.5,3j+9,"vishwa",True,7]
+print(c)
 print(id(c))
-#c = [1,2,3] + [4] #new element can be added or attached to existing  list
-print("c :",c)
+#new element can be added or attached to existing  list
+c=c+[6]
+print("c afer concatinate :",c)
 print(id(c))
 
 d=[range(9)] # output :-- d: [range(0, 9)]

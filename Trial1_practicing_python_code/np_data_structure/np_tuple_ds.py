@@ -8,7 +8,7 @@ tuple :
 
 @author: vishw
 '''
-tu =()#Empty tuple
+tu =()#Empty tuple can be created
 print("tu:",tu)
 print(type(tu))
 
@@ -16,7 +16,7 @@ tu1=(1,2,3,4,5)#tuple with listed elements
 print("tu1",tu1)
 print(type(tu1))
 
-tu3=tuple(range(6))#tuple with an iterable function i.e. range()
+tu3=tuple(range(6))# using tuple function with an iterable function i.e. range()
 print("tu3:",tu3)
 print(type(tu3))
 
@@ -26,15 +26,53 @@ tu4 =(a+b,a-b,a*b,a/b)# using operations as elements inside the tuple
 print("tu4 :",tu4)
 
 c = (1,2,3)
-print(id(c))
-c= (1,2,3)  #new element cannot be added or attached to existing  tuple
-c1 =(7) 
-#c =c+c1
-print("c:",c)
+print("c:",id(c))
+d= (1,2,3)  
+print("d:",id(d)) #in tuple the memory location is one and only for same objects assigned to different variables 
 
-d=(4)
-e =(4)
-print(id(d),id(e))#in tuple same object is stored in one memory location
+#new element cannot be added or attached to existing  tuple
+#tuple is immutable
+c =(1,2,3)+tu1 #in tuple concatination of tuple into other can be done
+print(c)#after concatination old tuple is replaced by new tuple having different memory location
+print("c:",id(c))#it indicaates that tuple data structure is immutable
+
+print()
+print("-------------Accessing elements from tuple-----------")
+t1 =tuple(range(91,100))
+print("t1:",t1)
+print("Using indexing:")
+print("t1[2]:",t1[2])
+
+print()
+print("using while loop:")
+i=0
+while i<len(t1):
+    t1_w=t1[i]
+    i+=1
+    print(t1_w)
+    
+print()
+print("using for loop:") 
+t1_f=[j for j in t1 ] 
+print(t1_f)
+print(type(t1_f))
+
+print()
+print("--------tuple specific in-built function------" )
+count=t1.count(91)
+print("count:",count)
+
+print()
+t2 =(1,2,3,1,2,3,3,4,5,2,1,5,2,6,7)
+print("t2:",t2)
+idx=t2.index(2,6,10)#returns index position of a value within 6th to 10th index
+print("index position of 2 starting from 6th and stop @ 10th:",idx)
+print()
+
+
+
+
+
 
  
 

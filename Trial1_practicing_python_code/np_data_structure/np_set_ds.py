@@ -24,3 +24,8 @@ print("set5:",set5) #set5: {range(0, 6)} ,elements are represented through set
 set6 ={1}
 set7 ={1}
 print(id(set6),id(set7)) #in set same object is stored in different memory location
+
+print()
+print("Accessing the elements in the set:")
+s1 ={25,5,"vishwa",56.9,-3,True,None,6j+8,"&"}
+print("s1:",s1)
