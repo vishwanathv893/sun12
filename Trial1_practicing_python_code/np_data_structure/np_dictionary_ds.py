@@ -18,11 +18,10 @@ for j in dict1:
 dict2['d']="deer"
 print(dict2)
     
-dict3={5:"fire"}
+dict3={5:"fire"} 
 print(dict2)
 
-    
-        
+ 
 
 
 

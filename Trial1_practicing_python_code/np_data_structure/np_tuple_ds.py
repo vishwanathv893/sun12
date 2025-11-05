@@ -13,7 +13,7 @@ print("tu:",tu)
 print(type(tu))
 
 tu1=(1,2,3,4,5)#tuple with listed elements
-print("tu1",tu1)
+print("tu1:",tu1)
 print(type(tu1))
 
 tu3=tuple(range(6))# using tuple function with an iterable function i.e. range()
@@ -22,9 +22,9 @@ print(type(tu3))
 
 a=5
 b=2
-tu4 =(a+b,a-b,a*b,a/b)# using operations as elements inside the tuple
+tu4 =(a+b,a-b,a*b,a/b)# using simple arithmetic operations as elements inside the tuple
 print("tu4 :",tu4)
-
+print()
 c = (1,2,3)
 print("c:",id(c))
 d= (1,2,3)  
@@ -33,9 +33,18 @@ print("d:",id(d)) #in tuple the memory location is one and only for same objects
 #new element cannot be added or attached to existing  tuple
 #tuple is immutable
 c =(1,2,3)+tu1 #in tuple concatination of tuple into other can be done
-print(c)#after concatination old tuple is replaced by new tuple having different memory location
-print("c:",id(c))#it indicaates that tuple data structure is immutable
-
+print("c:",c)
+'''after concatination old tuple is
+    replaced by new tuple having 
+    different memory location,no modification of existing tuple
+    it indicates that tuple data structure is immutable
+                '''
+print("c:",id(c))
+print("d:",id(d))
+'''
+c[0]=99
+print("c:",c)#TypeError: 'tuple' object does not support item assignment
+'''
 print()
 print("-------------Accessing elements from tuple-----------")
 t1 =tuple(range(91,100))
@@ -57,9 +66,10 @@ t1_f=[j for j in t1 ]
 print(t1_f)
 print(type(t1_f))
 
+
 print()
 print("--------tuple specific in-built function------" )
-count=t1.count(91)
+count=t1.count(91)#returns value idicating how many times the element is repeated
 print("count:",count)
 
 print()

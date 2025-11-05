@@ -12,3 +12,6 @@ functions:
  Note:-  -> If function which does not returns anything is assigned to a variable it prints nothing and 'none' is displayed on the console.
          -> return keyword is used for the purpose of utilizing the value which is returned by a function in other functions or modules or to just print.
 '''
+
+def add_var(*a):
+    print(a)
