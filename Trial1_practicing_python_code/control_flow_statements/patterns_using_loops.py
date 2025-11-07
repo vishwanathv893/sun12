@@ -43,14 +43,60 @@ j=4
 for i in range(1,5):
     print((j-1)*space+i*(f"{i}"+space ))#used string formating,for j numbers ,the preceding spaces are (j-1) and i(number + space)
     j-=1
+    
+    
 print()
-
-'''
 print("Number increasing pyramid:")
-for j in range(1,5): 
-    print(f"{j} ") 
-    '''  
-            
+for i in range(1,6):#
+    print()#for line by line print
+    for j in range(1,i):#starting from 1 for loop is iterating range function till ith as stop value 
+        print(j,end=" ")
+        
+print()
+print("Number increasing reverse pyramid:")  
+for k in range(5,-1,-1):#logic is start value in k-loop is stop value in i-loop
+    print()#for line by line print
+    for i in range(1,k):
+        print(i,end=" ")      
+''' 
+print()
+print("Number Changing pyramid:")
+for i in range(1,11):
+    for j in(1,4):
+        print
+        '''
+'''  
+print()
+print("Zero - One pattern:")
+z=0
+o=1
+for k in range(5):
+    for i in range(0,1):
+        for j in range(1,2):
+            print(i,j)    
+'''
+        
+print()
+print("Rhombus Pattern:")
+space=" "
+for j in range(6):#increments spaces 
+    print()
+    print(j*space,end=" ")
+    for i in range(5):#prints string * * * * *
+        print("*",end=" ")              
+'''   
+print()
+print("Daimond Pattern:")
+space =" "
+j=4
+for i in range(1,5):
+    print((j-1)*space+i*("*"+space ))#used string formating,for j numbers ,the preceding spaces are (j-1) and i(number + space)
+    j-=1
+for k in range(1,4):
+    print((k-1)*space+i*("*"+space ))#used string formating,for j numbers ,the preceding spaces are (j-1) and i(number + space)
+    j-=1
+'''    
+          
     
     
   
