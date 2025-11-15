@@ -39,6 +39,38 @@ while True :
         case _ :
             print("PLease enter 1 to 7:")
             
+print() #adding newline in console
+print("Demonstrating a simple calculator using basic arithmetic operations :-") 
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:")) 
+print() 
+while True :
+    op=int(input("Enter which arithmetic operation you want perform by entering  number 1 for add, 2 for sub,3 for multi, 4 for div options: "))
+    print()
+    match op:
+        case 1:
+            res =a+b
+            print("Result for addition:",res)
+            
+        case 2: 
+            res=a-b
+            print("Result for subtraction:",res)
+            
+        case 3:
+            res=a*b
+            print("Result for multiplication:",res)
+            
+        case 4:
+            res=a/b
+            print("Result for division:",res)
+            
+        case _ :
+            print("Enter only mentioned numbers.")    
+                       
+            
+               
+             
+            
                 
               
             
