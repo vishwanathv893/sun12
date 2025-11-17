@@ -58,23 +58,23 @@ for k in range(5,-1,-1):#logic is start value in k-loop is stop value in i-loop
     print()#for line by line print
     for i in range(1,k):
         print(i,end=" ")      
-''' 
+ 
 print()
 print("Number Changing pyramid:")
-for i in range(1,11):
-    for j in(1,4):
-        print
-        '''
-'''  
+num =1
+for i in range(6): 
+    print() 
+    for j in range(1,i+1):
+        print(num,end=" ")
+        num+=1
+    
+
 print()
 print("Zero - One pattern:")
 z=0
 o=1
-for k in range(5):
-    for i in range(0,1):
-        for j in range(1,2):
-            print(i,j)    
-'''
+for i in range(6):
+    
         
 print()
 print("Rhombus Pattern:")
@@ -96,7 +96,8 @@ for k in range(1,4):
     print((k-1)*space+i*("*"+space ))#used string formating,for j numbers ,the preceding spaces are (j-1) and i(number + space)
     j-=1
 '''    
-          
+
+         
     
     
   

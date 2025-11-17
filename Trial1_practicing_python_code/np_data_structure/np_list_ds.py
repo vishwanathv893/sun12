@@ -137,7 +137,7 @@ l_ds=[1,3,5,22,6,7,4,7,4,8,3,9,2,5,7,99,100,103,99]
 print(len(l_ds)) 
 print("l_ds = ",l_ds)
 print()
-
+'''
 element=input("Enter the elements you wish to know which index does it belongs to and how many times does it appears in the list :")
 elements=int(element)
 if elements in l_ds:
@@ -152,6 +152,9 @@ if elements in l_ds:
     print("index of the chosen element is:",ie)
 else:  
     print("Please enter the elements which are only present in given list:")
+'''    
+for  i in l_ds:
+    print(i,end=" ")   
 
     
 
