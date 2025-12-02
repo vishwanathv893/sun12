@@ -5,7 +5,7 @@ Created on 30-Nov-2025
 '''
 import requests
 
-response=requests.get("https://api.restful-api.dev/objects/5")
+response=requests.get("https://api.restful-api.dev/objects/7")
 print("response:",response)
 print("response.status_code :",response.status_code)
 response_body =response.json()

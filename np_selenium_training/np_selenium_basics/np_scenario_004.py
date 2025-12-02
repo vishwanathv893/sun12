@@ -26,3 +26,5 @@ print(windows)
 
 playwrite =driver.find_element(By.CLASS_NAME, "getStarted_Sjon") #finding the 'get started' button in playwright website
 playwrite.click()#clicking on it
+
+
