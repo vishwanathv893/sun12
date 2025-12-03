@@ -20,7 +20,7 @@ iframe_tab_two = driver.find_element(By.XPATH, "//a[@href='#Multiple']")#finding
 iframe_tab_two.click()#clicking on it
 time.sleep(2)#wait for 2 seconds after clicking on the frames tab
 
-outer_nested_iframe = driver.find_element(By.XPATH, "//iframe[@src='MultipleFrames.html']")#finding the outer frame with relative xpath stating using "iframe" tag
+outer_nested_iframe = driver.find_element(By.XPATH, "//iframe[@src='MultipleFrames.html']")#finding the outer frame with relative xpath using "iframe" tag
 driver.switch_to.frame(outer_nested_iframe)#switching to it 
 
 
@@ -34,4 +34,5 @@ input_txt_box.send_keys("ALL IS WELL")#doing action inside the box i.e. entering
 
 time.sleep(5)#wait for 5 seconds before exit
 driver.quit()#exiting the automated Chrome browser
+
 
