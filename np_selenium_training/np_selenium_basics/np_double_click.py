@@ -30,5 +30,4 @@ copy_txt =driver.find_element(By.XPATH, "//button[@ondblclick = 'myFunction1()']
 actions.double_click(copy_txt).perform()#performing the double click action
 print("Text in field1 is copied to field2.")
 
-time.sleep(3)
-driver.quit()
+

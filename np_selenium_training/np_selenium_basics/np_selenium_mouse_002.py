@@ -29,6 +29,9 @@ actions.move_to_element(drag_drop).perform() #hovering over it
 
 static_button= driver.find_element(By.LINK_TEXT, "Static")#Locating the static button
 actions.move_to_element(static_button).perform()#hovering over it
+static_button.click()#clicking on static button
+
+
 
 time.sleep(5)
 driver.quit()
