@@ -32,10 +32,6 @@ for j in range(2,8):#each row is accessed
         row =driver.find_element(By.XPATH,f"//table[@name='BookTable']/tbody/tr{[j]}/td{[i]}")#locating the elements in a table using xpath with string formating
         print(row.text)#printing the elements
 
-
-
-    
-    
 driver.quit()    
     
     
