@@ -74,7 +74,11 @@ for l in range(len(device_name_list)):#iterating upto length of either of the li
 if device_not_found: 
     print("The entered device name is not present.")
     
-driver.quit()    
+s=driver.save_screenshot(r"\Screenshots\pageination.png")
+print(s)
+
+    
+  
       
         
 

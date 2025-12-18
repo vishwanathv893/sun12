@@ -15,5 +15,5 @@ def max_3(a,b,c):
     else:
         return b
     
-m=max_3(55,89,2)  
+m=max_3(-9.5,-8.85,0)  
 print("The maximum of 3 numbers is",m)     

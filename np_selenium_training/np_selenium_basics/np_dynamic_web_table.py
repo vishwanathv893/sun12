@@ -14,7 +14,9 @@ driver.implicitly_wait(5)
 
 driver.get("https://testautomationpractice.blogspot.com")
 
-network_speed_chrome =driver.find_element(By.XPATH, "//table[@id='taskTable']/tbody[@id='rows']/tr/td[contains(text() ,'Mbps')]")
-print(network_speed_chrome.text)
+memory_space =driver.find_element(By.XPATH, "//table[@id='taskTable']/tbody[@id='rows']/tr/td[contains(text() ,'MB') and not( contains(text(),'/s'))]")
+percentage_cpu_used=driver.find_element(By.XPATH,"//table[@id='taskTable']/tbody/tr/td[contains(text(),'%')]")
+disk_speed=driver.find_element(By.XPATH,"//table[@id='taskTable']/tbody/tr/td[contains(text(),'MB/s')]")
+network_speed=driver.find_elements(By.XPATH,"//table[@id='taskTable']/tbody/tr/td[contains(text(),'Mbps')]")
 
 

@@ -1,6 +1,6 @@
 '''
 Created on 12-Oct-2025
-comments : provides description about single line or block of a code , two types of comments 
+comments : fecilitates a way to view  description about single line or block of a code , two types of comments 
 single line comments : starts with # (hashtag) symbol
 multi-line comments : starts with triple single quotes or double quotes  and ends with same notation 
 
@@ -34,6 +34,7 @@ print(id(num8))
 -value assigned to that nametag is fetched from memory
 -if the value is same then multiple nametags are assigend to single memory ID.
 '''
+
 
 
 
